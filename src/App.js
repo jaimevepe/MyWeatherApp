@@ -37,7 +37,7 @@ function App() {
                     </h2>
                     <div className="city-temp">
                         {Math.round(weather.main.temp)}
-                        <sup>&deg;Ferenheight</sup>
+                        <sup>&deg;F</sup>
                     </div>
                     <div className="info">
                         <img className="city-icon" 
