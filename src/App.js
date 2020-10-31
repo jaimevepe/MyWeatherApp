@@ -34,7 +34,6 @@ function App() {
                     <h2 className="city-name">
                         <span> {weather.name} </span>
                         <sup> {weather.sys.country} </sup>
-                        <h3>Monica smells funny!!</h3>
                     </h2>
                     <div className="city-temp">
                         {Math.round(weather.main.temp)}
