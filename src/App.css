@@ -7,10 +7,10 @@ html, body, #root {
 }
 
 .main-container {
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('./media/bg.jpg');
-    
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2) ), url('./media/bg.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .main-container {
